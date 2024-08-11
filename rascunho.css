@@ -1,0 +1,287 @@
+* {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+    color: #fff;
+}
+
+.container {
+    padding: 0;
+    width: 100%;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #1d0101;
+    z-index: 999;
+    /* Garantir que o cabeçalho esteja acima de outros elementos */
+    padding: 0;
+    margin: 0;
+}
+
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: -48px;
+    background-color: #1d0101;
+    margin: 0;
+    width: 100%;
+
+}
+
+.cabecalho h1 {
+    color: #fff;
+    font-size: 52px;
+    font-family: "Gloria Hallelujah", cursive;
+    background-color: #1d0101;
+}
+
+.cabecalho nav a {
+    color: rgb(255, 255, 255);
+    font-size: large;
+    background-color: #1d0101;
+}
+
+ul .nav .navbar .nav-pills,
+.navbar,
+.nav-item {
+    background-color: #1d0101;
+}
+
+
+.navbar .nav-link.active {
+    background-color: #8D9494;
+    padding: 4px 8px;
+}
+
+section {
+    height: 150vh;
+    padding: 88px;
+}
+
+section h2 {
+    color: #fff;
+}
+
+/* PORTIFOLIO (CARDS) */
+
+.cards {
+    margin-top: 100px;
+    font-family: "Roboto Slab", serif;
+}
+
+article {
+    margin-bottom: 24px;
+}
+
+article a .btn {
+    text-align: center;
+}
+
+/* SOBRE */
+
+.about {
+    margin-top: -400px;
+}
+
+.about p {
+    font-family: "Roboto Slab", serif;
+    font-size: 15px;
+
+}
+
+.info-about {
+    display: flex;
+}
+
+.info-about img {
+    margin-right: 32px;
+    border-radius: 15px;
+}
+
+.info-about h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 42px;
+    font-family: "Gloria Hallelujah", cursive;
+    margin-bottom: 26px;
+}
+
+.info-about p {
+    color: #fff;
+}
+
+.info-about-studio {
+    display: flex;
+    margin-top: 100px;
+}
+
+.info-about-studio img {
+    border-radius: 15px;
+}
+
+.text p {
+    margin-top: 50px;
+    margin-right: 32px;
+    text-align: end;
+}
+
+.info-about-studio p {
+    color: #fff;
+    align-items: center;
+}
+
+/* CONTATO */
+
+.contato {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -50px;
+}
+
+.contact-form {
+    width: 100%;
+    ;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #8C6655;
+}
+
+.contato h2 {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Gloria Hallelujah", cursive;
+    background-color: #446381;
+}
+
+.contato h6 {
+    background-color: #446381;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: "Roboto Slab", serif;
+}
+
+form {
+    background-color: #446381;
+    width: 700px;
+}
+
+.form-group {
+    background-color: #446381;
+    margin-bottom: ;
+}
+
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+input,
+select {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+}
+
+.contact-form,
+label {
+    color: rgb(253, 252, 252);
+    font-weight: bold;
+    background-color: #446381;
+    font-family: "Roboto Slab", serif;
+}
+
+.contato .form-control {
+    background-color: #ffffff;
+}
+
+#casamento,
+#en-pessoal,
+#en-casal,
+#cel-festa,
+#outro {
+    background-color: #000000;
+    color: #fff;
+    font-family: "Roboto Slab", serif;
+}
+
+textarea {
+    margin-bottom: 20px;
+}
+
+#data {
+    background-color: #fff;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.botao {
+    background-color: #446381;
+    text-align: end;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #1d0101;
+    color: #fff;
+    font-family: "Roboto Slab", serif;
+}
+
+.footer-content {
+    background-color: #000000;
+}
+
+.footer h5 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #a81e1e;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.social-media i {
+    font-size: 24px;
+}
+
+.social-media a {
+    margin-right: 15px;
+}
+
+.text-center {
+    padding: ;
+}
+
+
+
+@media (max-width: 767px) {
+    .footer .row {
+        text-align: center;
+    }
+}
